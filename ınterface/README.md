@@ -1,9 +1,7 @@
 
-# 👨‍💻 Java Interface ve Polimorfizm Örneği
+# Java Interface ve Polimorfizm Örneği
 
 Bu proje, Java'da **interface kullanımı** ve **polimorfizm** konularını basit bir örnek üzerinden göstermektedir.
-
----
 
 ## 🚀 Ana Fikir
 
