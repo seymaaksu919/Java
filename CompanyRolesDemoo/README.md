@@ -1,11 +1,11 @@
-#CompanyRolesDemo
+# CompanyRolesDemo
 
 Bu proje, **Java’da inheritance (kalıtım), constructor zinciri ve polymorphism** kavramlarını göstermek amacıyla hazırlanmıştır. 
 Employee, Developer, Manager ve TeamLead sınıfları kullanılarak bir teknoloji şirketindeki çalışan hiyerarşisi örneklendirilmiştir.
 
 ---
 
-##🚀Kavramlar
+## 🚀Kavramlar
 
 - **Inheritance (Kalıtım):** Employee → Manager → TeamLead → Developer  
 - **Constructor Zinciri:** Alt sınıf oluşturulurken önce üst sınıfların constructor’ları çalışır.  
@@ -15,13 +15,9 @@ Employee, Developer, Manager ve TeamLead sınıfları kullanılarak bir teknoloj
   Employee e = new TeamLead("Akif", team);
   e.work(); // Çalışma anında TeamLead metodları çalışır
 
+---
 
-Protected Değişkenler: Alt sınıflardan erişilebilir (protected String name;)
-
-Alt Sınıfa Özel Değişkenler: TeamLead sınıfında teamMembers ve teamSize tanımlanmıştır.
-
-
-Dosya Yapısı
+## Dosya Yapısı
 
 Employee.java → Üst sınıf
 
@@ -33,8 +29,9 @@ TeamLead.java → Manager’dan türetilmiş alt sınıf, ekip yönetimi özelli
 
 Main.java → Programın çalıştırıldığı sınıf
 
+---
 
-Beklenen Çıktı:
+## Beklenen Çıktı:
 
 Employee created..
 Manager created..
@@ -43,7 +40,12 @@ Employee is working..
 Manager is working..
 TeamLead is leading a team of 4 developers..
 
-📌 Notlar
+---
+
+## 📌 Notlar
+Protected Değişkenler: Alt sınıflardan erişilebilir (protected String name;)
+
+Alt Sınıfa Özel Değişkenler: TeamLead sınıfında teamMembers ve teamSize tanımlanmıştır.
 
 Kodda constructor zinciri, override edilmiş metotlar ve polymorphism gösterilmiştir.
 
