@@ -128,9 +128,4 @@ for (Animal a : animals) {
 4. **instanceof** → Runtime’da hangi davranışın çağrılacağını kontrol eder.
 5. **Getter/Setter** → Encapsulation ve veri okuma/yazma kontrolü.
 
----
-
-İstersen ben bunu sana **GitHub için hazır Markdown formatında**, tüm dosya isimleri ve küçük açıklamalarla daha **profesyonel** hâle getirebilirim, direkt oraya koysunlar.
-
-Bunu da hazırlayayım mı?
 
